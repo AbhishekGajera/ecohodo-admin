@@ -1,0 +1,327 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* ----------------- custom css ----------------------- */
+
+::-webkit-scrollbar {
+  width: 4px;
+  border: 1px solid #d5d5d5;
+}
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #eeeeee;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #b0b0b0;
+}
+::-webkit-scrollbar{
+  height: 4px;
+  width: 4px;
+  background: gray;
+}
+.dashboard {
+  border-top: 1px solid #eee;
+  margin-top: 30px !important;
+  padding-top: 30px !important;
+}
+.logo {
+  width: 140px;
+  height: 35px;
+}
+.inner-logo button:hover{
+  background-color: transparent;
+}
+.menu-icon a{
+  width: 35px;
+  height: 35px;
+  color: #fff !important;
+  background-color: transparent !important;
+}
+.menu-icon a:hover {
+  color: #e7e6e2 !important;
+}
+.menu-icon{
+  width: 35px;
+  height: 35px;
+  color: #fff !important;
+  background-color: transparent !important;
+}
+.menu-icon:hover {
+  color: #e7e6e2 !important;
+}
+.header-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1{
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+.dashbord-title {
+  font-size: 20px !important;
+  font-weight: 600;
+}
+.select-box{
+  width: 200px !important;
+}
+.title-main{
+  font-size: 30px !important;
+  padding-bottom: 20px;
+  font-weight: 600 !important;
+  margin-bottom: 0 !important;
+}
+.pb-0{
+  padding-bottom: 0!important
+}
+.inner-card-main {
+   position: relative;
+  overflow-x: auto;
+}
+label{
+  font-weight: 600 !important;
+}
+label,input{
+  font-size: 15px;
+}
+
+.table-input{
+  margin: 9px 10px 10px 0;
+  width: 95%;
+  padding: 5px !important;
+}
+.input-border{
+  border-radius: 2px;
+  border: 1px solid #767676;
+}
+.table-title {
+  font-size: 15px;
+  padding-right: 10px;
+  text-align: center;
+}
+.table-input:focus-visible{
+  outline: none;
+}
+.paper-layout{
+  margin:30px 0;
+  padding: 15px;
+}
+.inner-logo{
+  border-bottom: 1px solid #d9d0d0;
+  padding-bottom: 10px;
+}
+.input-width{
+  width: 221px;
+}
+.list-item-inner{
+  color: #4caf50 !important;
+}
+.active.list-item-inner,
+.list-item-inner:hover{
+  background-color: #79c97c !important;
+  color: #fff !important;
+  
+}
+.border-none{
+  border: none;
+}
+.form-select-main:focus{
+  outline: none;
+  border-color: 1px solid #fefefe;
+}
+.input-width-select{
+  min-width: 180px;
+}
+.input-width-select:focus-visible{
+  outline: none;
+}
+.form-select:focus, .form-control:focus,.accordion-button:focus{
+  box-shadow: none;
+}
+@media(max-width:1200px){
+  .inner-card-main {
+    position: relative;
+   overflow-x: auto;
+ }
+  h1{
+    font-size: 25px;
+  }
+  .dashbord-title{
+    font-size: 15px !important;
+  }
+  .title-main{
+    font-size: 25px !important;
+  }
+  .table-input {
+    margin: 7px 8px 7px 0;
+  }
+}
+@media(max-width:991px){
+  .table-title{
+    font-size: 14px;
+  }
+  .dashbord-title{
+    font-size: 13px !important;
+  }
+  .excelbutton-main {
+    margin: 3px 3px;
+  }
+}
+@media(max-width:767px){  
+  .inner-card {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  h1 {
+    font-size: 20px !important;
+  }
+  .title-main{
+    font-size: 20px;
+  }
+}
+@media(max-width:600px){
+  .paper-layout{
+    margin: 30px 20px 0;
+  }
+}
+@media(max-width:575px){
+  .lable-main{
+    display: block !important;
+  }
+  .card-main label, .lable-inner-content{
+    margin: 0 !important;
+  }
+  
+  .excelbutton {
+    margin: 10px 5px;
+    display: block;
+  }
+  .logo-title{
+    display: none;
+  }
+}
+@media(max-width:480px){
+  h1 {
+    font-size: 16px;
+  }
+  .title-main{
+    font-size: 16px !important;
+  }
+}
+
+select:focus {
+  border: 1px solid #79c97c;
+}
+
+.disabled-button{
+background-color: #EBEBE4 !important;
+border: 1px solid #EBEBE4 !important;
+color: #4caf50;
+}
+
+button.btn.btn-primary.btn-cancel {
+  background: transparent;
+  color: #4caf50;
+}
+.inner-card button.btn.btn-changepassword:hover{
+  background: transparent!important;
+  color: #4caf50!important;
+  border: 1px solid #4caf50;
+}
+.sidebar {
+  width: 180px;
+}
+
+/* CustomTable.css */
+.custom-table table {
+  border: none; /* Remove table borders */
+  border-radius: 10px; /* Add some border-radius for a more modern look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.custom-table thead tr,
+.custom-table thead th {
+  border: none!important; 
+}
+.custom-table thead tr{
+  border-bottom:2px solid #4caf50!important;
+  /* color: #FFF; */
+}
+.custom-table tbody tr:last-of-type td{
+  border-bottom: 2px solid #4caf50!important;
+}
+.custom-table tbody tr:nth-child(odd) td{
+  background-color: #f3f3f3;
+}
+.custom-table tbody tr:nth-child(even) td{
+  background-color: #fffffd;
+}
+.custom-table tbody tr,
+.custom-table tbody td{
+  border: none!important; /* Remove row borders */
+}
+.custom-table tbody td a{
+  color: black;
+}
+.userdetail-tab{
+  border-bottom: none!important;
+}
+.userdetail-tab .nav-item .nav-link{
+  color: black;
+  font-weight: 600;
+}
+.userdetail-tab .nav-item .nav-link:hover{
+  border:none!important;
+  color: #4caf50;
+}
+.userdetail-tab .nav-item .nav-link.active {
+  color: #4caf50!important;
+  border: none!important;
+  border-bottom: 2px solid #4caf50!important;
+}
+.react-bootstrap-table-pagination-list-hidden{
+  display: block!important;
+}
+.react-bootstrap-table-pagination-list-hidden a.page-link{
+  background-color: #4caf50!important;
+  border: 1px solid #4caf50!important;
+}

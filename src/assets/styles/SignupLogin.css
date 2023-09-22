@@ -1,0 +1,94 @@
+/* Shared.css */
+
+/* Common styles for both Signup and Login */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.signup-button,
+.btn-primary {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.success-message {
+  color: green;
+}
+
+.error-message {
+  color: red;
+}
+
+
+/* Signup specific styles */
+.signup-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+
+/* Login specific styles */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    height: 100vh;
+    justify-content: center;
+  }
+
+.login-form {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+.signup-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.message {
+  padding: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
